@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./AuthForm.css";
+import "./authForms.css";
 import { useLoginMutation, useRegisterMutation } from "./authSlice";
 import { useNavigate } from "react-router-dom";
 

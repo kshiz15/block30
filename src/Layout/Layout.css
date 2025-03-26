@@ -1,0 +1,23 @@
+.page {
+  max-width: 720px;
+  width: 100%;
+}
+
+.books-icon {
+  height: 2rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.site-decal,
+.nav-header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
