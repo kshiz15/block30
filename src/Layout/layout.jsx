@@ -3,7 +3,7 @@ import "./Layout.css";
 
 import { useDispatch, useSelector } from "react-redux";
 import booksIcon from "../assets/books.png";
-import { logout, selectToken } from "../features/auth/authSlice";
+import { logout, selectToken } from "../Features/Auth/authSlice";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export const Layout = () => {
