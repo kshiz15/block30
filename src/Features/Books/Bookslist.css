@@ -1,0 +1,49 @@
+.books-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.book-card {
+  height: 10rem;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #e6e6e6;
+  padding: 0.25rem;
+}
+
+.book-card img {
+  height: 100%;
+  width: 10rem;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.book-card-right-wrapper {
+  position: relative;
+}
+
+.book-card h2 {
+  font-size: 1.25rem;
+}
+
+.book-card h3 {
+  font-size: 1rem;
+}
+
+.book-card p {
+  height: 4.5rem;
+  overflow: hidden;
+}
+
+.more-details {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

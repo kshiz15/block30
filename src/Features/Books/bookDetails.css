@@ -1,0 +1,26 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    margin-top: 2rem;
+    }
+    
+    .book-details img {
+    height: 16rem;
+    object-fit: contain;
+    }
+    
+    .book-details button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    }
+    
+    .not-available {
+    background-color: #a1a1a1;
+    }
+    
+    .logged-out-message {
+    font-style: italic;
+    font-size: 0.75rem;
+    }

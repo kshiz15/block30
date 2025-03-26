@@ -1,0 +1,48 @@
+.account {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    }
+    
+    .user-welcome {
+    font-style: italic;
+    }
+    
+    .user-details {
+    padding: 1rem;
+    background-color: #dddddd;
+    }
+    
+    .user-details tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    }
+    
+    .user-details th {
+    text-align: left;
+    width: 8rem;
+    }
+    
+    .reservations {
+    width: 100%;
+    
+    }
+    
+    .reservation-itemization {
+    display: flex;
+    padding: 0.25rem;
+    justify-content: space-between;
+    background-color: #dddddd;
+    align-items: center;
+    }
+    
+    .reservation-title,
+    .reservation-author {
+    width: 15rem;
+    }
+    
+    .reservation-itemization button {
+    width: 10rem;
+    }
